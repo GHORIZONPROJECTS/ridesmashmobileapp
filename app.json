@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow $(PRODUCT_NAME) to use your location."
+        }
+      ]
+    ],
+    "name": "Ridesmash",
+    "slug": "Ridesmash",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/splash/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/splash/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#030088"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/splash/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.horizonmobileapps.Ridesmash"
+    },
+    "web": {
+      "favicon": "./assets/images/splash/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f12033b9-ef7f-43a7-a267-523af83c6dc5"
+      }
+    }
+  }
+}
